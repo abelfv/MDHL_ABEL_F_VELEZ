@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(rgba(133, 133, 253, 0.384), rgba(48, 190, 148, 0.473));
+}
+
 .img01 {
     width: 120px;
     float: left;
@@ -63,4 +67,39 @@ dt {
 
 footer {
     text-align: end;
+}
+
+.rules h3 {
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+}
+
+.parrafo1 {
+    text-indent: 15px;
+}
+
+.rules h2 {
+    text-align: center;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    table-layout: fixed;
+    text-align: center;
+    width: 70%;
+    border-collapse: collapse;
+    background-color: aquamarine;
+    border: 3px solid rgb(8, 8, 8);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #89c3fa;
 }
