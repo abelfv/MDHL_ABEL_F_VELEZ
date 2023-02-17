@@ -1,4 +1,4 @@
-body{
+body {
     background: linear-gradient(rgba(133, 133, 253, 0.384), rgba(48, 190, 148, 0.473));
 }
 
@@ -88,18 +88,68 @@ footer {
 .tabla {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-table {
+table,
+td,
+th {
     table-layout: fixed;
     text-align: center;
     width: 70%;
     border-collapse: collapse;
-    background-color: aquamarine;
-    border: 3px solid rgb(8, 8, 8);
+    background: linear-gradient(rgba(0, 253, 13, 0.384), rgba(48, 190, 131, 0.473));
+    border: 2px solid rgb(8, 8, 8);
+    font-weight: bold;
 }
 
-tbody tr:nth-child(even) {
-    background-color: #89c3fa;
+.parrafosjuntos {
+    display: flex;
+}
+
+.prf1 {
+    margin-right: 50%;
+}
+
+.registro {
+    text-align: center;
+}
+
+form {
+    position: relative;
+    width: 850px;
+    margin: 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    background: #8362f869
+}
+
+.btn-enviar {
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+}
+
+.btn-enviar button {
+    border-radius: 50px;
+    width: 250px;
+    height: 40px;
+    background: linear-gradient(rgb(145, 240, 57), rgba(48, 190, 131, 0.473));
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(36, 248, 195), rgba(255, 255, 255, 0.473));
+    margin-bottom: 5px;
+}
+
+label{
+    padding-right: 5px;
+}
+
+::placeholder{
+    color: rgb(174, 0, 255);
+    font-weight: bold;
 }
